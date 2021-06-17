@@ -1,6 +1,6 @@
 # Youtube Streaming
 
-<img width="{해상도 비율}" src="Uploading ezgif.com-gif-maker.gif"/>
+<img width="80%" src="https://user-images.githubusercontent.com/43038052/122424576-caa32e00-cfc9-11eb-8cfe-4727b5b32688.gif"/>
 
 
 ### 패키지 사용법
