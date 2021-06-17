@@ -5,7 +5,6 @@
 
 
 <br>
-<br>
 
 ### 패키지 사용법
 
@@ -22,7 +21,6 @@ $ flutter pub add youtube_player_flutter
 
 
 
-<br>
 <br>
 
 ### Code
