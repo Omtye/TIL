@@ -2,7 +2,7 @@
 
 - 배움이 없는 날이란 없다
 - 하루동안 학습한 내용이나 관련된 경험들을 꾸준히 기록으로 남긴다
-- 내일의 나는 오늘보다 성숙한 사람이 되도록 노력한다
+- 내일의 나는 오늘보다 뛰어난 사람이 되도록 노력한다
 
 [namjunemy]( https://github.com/namjunemy/TIL), [milooy](https://github.com/milooy/TIL) 님의 TIL을 참고
 
