@@ -24,6 +24,7 @@ $ flutter pub add youtube_player_flutter
 
 <br>
 <br>
+
 ### Code
 
 ```dart
