@@ -1,6 +1,7 @@
 # Youtube Streaming
 
-[Youtube Streaming.md](https://github.com/Omtye/TIL/files/6671260/Youtube.Streaming.md)
+![Uploading ezgif.com-gif-maker.gif…]()
+
 
 ### 패키지 사용법
 
