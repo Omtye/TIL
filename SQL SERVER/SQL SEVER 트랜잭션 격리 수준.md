@@ -18,7 +18,7 @@ SET TRANSACTION ISOLATION LEVEL
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 ```
 
-
+<br>
 
 **READ UNCOMMITTED**
 
@@ -26,7 +26,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 - S Lock 실행 안함, X Lock 이 걸려있어도 읽어 올 수 있음
 - 모든 SELECT 문 테이블에 NOLOCK을 설정하는 것과 같은 기능
 
-
+<br>
 
 **READ COMMITTED**
 
@@ -35,7 +35,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 
 - SELECT가 끝나더라도(커밋되기전) 다른 세션에서 INSERT나 UPDATE가 가능
 
-  
+<br>  
 
 **REPEATABLE READ**
 
@@ -43,13 +43,13 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 
 - 처음 읽었을 당시에 존재하는 데이터만 Lock을 걸고 현재 행이 읽고 있는 데이터 외는 추가가 가능
 
-
+<br>  
 
 **SERIALIZABLE**
 
 - 인덱스를 기준으로 해당 이전 행, 다음 행까지의 Range-S-S Lock을 건다.
 - 인덱스가 없을 경우 범위 파악이 되지 않아 전체 행 Lock
 
-
+<br>  
 
 이 부분은 조금 더 상세한 예시로 블로그에 정리해보자
