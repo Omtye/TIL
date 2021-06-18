@@ -12,14 +12,18 @@
 
 
 
-아래 명령어를 실행합니다.
+아래 명령어를 실행한다.
 
 ```bash
 $ flutter pub add youtube_player_flutter
 ```
 
 
+AndroidManifest.xml 파일에 퍼미션을 추가한다.
 
+```dart
+<uses-permission android:name="android.permission.INTERNET"/>
+```
 
 <br>
 
