@@ -113,7 +113,7 @@ A -> B 순으로 오버라이딩 된다고 생각하면 이해하기 쉬울 것 
 
 이러한 선형화 구조로 다수의 Mixin을 포함하여도 다중 상속에서 발생하는 오류가 발생하지 않는다.
 
-![image-20210629005215882](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210629005215882.png)
+![Screenshot_5](https://user-images.githubusercontent.com/43038052/123670604-5b0a2a00-d878-11eb-8800-28675bb5223a.png)
 
 
 
