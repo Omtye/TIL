@@ -4,12 +4,14 @@
 데이터 구조 및 데이터 분석 도구를 제공하는 Python 라이브러리입니다. 엑셀과 상당히 유사하며 excel, csv, sql 등 다양한 데이터를 가져와서 처리할 수 있습니다. 
 
 <br>
+
 ### Pandas의 장점
 
 - 데이터 가독성이 높다
 - 대용량 데이터를 효율적으로 처리할 수 있다
 - 데이터 분석에 대한 다양한 기능을 제공
 <br>
+
 ### Pandas 패키지 임포트
 
 판다스 패키지를 사용하기 위해서는 우선 import를 해야하며 일반적으로 pd 라는 별칭으로 사용합니다.
@@ -18,10 +20,13 @@
 import pandas as pd
 ```
 <br>
+
 ## 데이터프레임
 
 데이터 프레임은 Pandas에서 제공하는 데이터 구조로 2차원의 행렬 데이터이다. 일반적인 데이터베이스의 구조라고 이해하면 됩니다.
+
 <br>
+
 ### 데이터 프레임 생성
 
 1. 하나의 열이 되는 데이터를 리스트나 일차원 배열을 준비합니다.
@@ -59,6 +64,7 @@ df.columns
 df.index
 ```
 <br>
+
 ### 열 데이터의 갱신, 추가, 삭제
 
 '2010-2015 증가율' 열 값을 백분율로 변경
@@ -78,7 +84,9 @@ df
 ```
 
 ![Untitled 2](https://user-images.githubusercontent.com/43038052/123982000-ae59b500-d9fd-11eb-8737-392d3b972ff3.png)
+
 <br>
+
 ### "2010-2015 증가율"이라는 이름의 열 삭제
 
 ```python
@@ -87,7 +95,9 @@ df
 ```
 
 ![Untitled 3](https://user-images.githubusercontent.com/43038052/123982002-aef24b80-d9fd-11eb-9583-8138d6c926e8.png)
+
 <br>
+
 ### 열 인덱싱
 
 데이터 프레임을 인덱싱 할 때 열 라벨을 키값으로 인덱싱을 할 수 있습니다. 인덱스로 라벨 값을 하나만 넣으면 시리즈 객체가 반환되고 라벨의 배열 또는 리스트를 넣으면 부분적인 데이터프레임이 반환됩니다.
@@ -114,7 +124,9 @@ df['2010']
 ```
 
 ![Untitled 6](https://user-images.githubusercontent.com/43038052/123982013-af8ae200-d9fd-11eb-87bb-5eb2be606d4b.png)
+
 <br>
+
 ### 행 인덱싱
 
 행 단위로 인덱싱을 하기 위해서는 슬라이싱을 해야하며 인덱스 값이 문자열이면 라벨 슬라이싱도 가능합니다. (인덱스는 0부터 시작합니다.)
@@ -134,7 +146,9 @@ df['서울':'부산']
 ```
 
 ![Untitled 7](https://user-images.githubusercontent.com/43038052/123982015-b0237880-d9fd-11eb-8b72-50642fe887c9.png)
+
 <br>
+
 ## 데이터 입출력
 
 Pandas는 데이터 파일을 읽어 데이터프레임을 만들 수 있는데 다양한 포맷을 지원합니다.
@@ -147,7 +161,9 @@ Pandas는 데이터 파일을 읽어 데이터프레임을 만들 수 있는데 
 - SAS
 - STATA
 - SQL
+
 <br>
+
 ### CSV 파일 입력
 
 csv 파일로부터 데이터를 읽어 데이터프레임을 만들 때는 `pandas.read_csv` 함수를 사용합니다. 만약에 csv 파일에 열 인덱스 정보가 없는 경우에는 names 인수로 설정이 가능합니다.
@@ -178,7 +194,9 @@ df
 ```
 
 ![Untitled 8](https://user-images.githubusercontent.com/43038052/123982019-b0bc0f00-d9fd-11eb-9750-96aced659b66.png)
+
 <br>
+
 ### CSV 파일 출력
 
 데이터프레임을 값을 CSV 파일로 출력하고 싶은 경우에는 `to_csv` 메소드를 사용합니다.
@@ -186,14 +204,18 @@ df
 ```python
 df.to_csv('sample6.csv')
 ```
+
 <br>
+
 ## 데이터프레임 고급 인덱싱
 
 데이터프레임에서 특정한 데이터만 골라내는 것을 인덱싱이라고 합니다. Pandas는 numpy 행렬과 같이 쉼표를 사용한 (행 인덱스, 열 인덱스) 형식의 2차원 인덱싱을 지원합니다.
 
 - loc : 라벨값 기반의 2차원 인덱싱
 - iloc : 순서를 나타내는 정수 기반의 2차원 인덱싱
+
 <br>
+
 ### loc 인덱서
 
 `loc` 인덱서는 아래 처럼 사용합니다.
@@ -297,7 +319,9 @@ df.loc[df.A > 10, ["C", "D"]]
 ```
 
 ![Untitled 15](https://user-images.githubusercontent.com/43038052/123982038-b285d280-d9fd-11eb-96e8-fd61ad59c433.png)
+
 <br>
+
 ### iloc 인덱서
 
 iloc 인덱서는 라벨 name이 아닌 `location`을 지정하는 방법으로 인덱스는 정수 형태이며 사용법은 loc 와 동일합니다.
@@ -326,9 +350,13 @@ df.iloc[2:3,1:3]
 ```
 
 ![Untitled 18](https://user-images.githubusercontent.com/43038052/123982046-b31e6900-d9fd-11eb-9af5-45bb5f9b7e83.png)
+
 <br>
+
 ## 데이터프레임 데이터 조작
+
 <br>
+
 ### 데이터 갯수 세기
 
 데이터 갯수를 셀 경우 `count` 를 사용합니다. 이 때 NaN 값은 제외합니다.
@@ -363,7 +391,9 @@ df.count()
 ```
 
 ![Untitled 22](https://user-images.githubusercontent.com/43038052/123982055-b44f9600-d9fd-11eb-8735-c4f0e95bc145.png)
+
 <br>
+
 ### 타이타닉 연습문제 1
 
 `seaborn` 패키지를 import 하면 아래와 같이 타이타닉 승객 데이터를 데이터프레임으로 읽어 올 수 있다.
@@ -382,7 +412,9 @@ titanic.count()
 ```
 
 ![Untitled 24](https://user-images.githubusercontent.com/43038052/123982059-b4e82c80-d9fd-11eb-8587-e5edca09445b.png)
+
 <br>
+
 ### 카테고리 값 세기
 
 시리즈 값이 정수, 문자열, 카테고리 값인 경우에는 `value_counts` 메소드로 각각의 값이 나온 횟수를 셀 수 있다.
@@ -411,6 +443,7 @@ df[0].value_counts()
 df[0].value_counts(normalize=True)
 ```
 <br>
+
 ### 정렬
 
 아까 위에서 나온 결과값이 1,0,4,5,3,2 로 상당히 거슬렸는데 데이터를 정렬하려면
@@ -447,7 +480,9 @@ df.sort_values(by=1)
 ```
 
 ![Untitled 29](https://user-images.githubusercontent.com/43038052/123982072-b6195980-d9fd-11eb-9fe2-ab07bcad82ba.png)
+
 <br>
+
 ### 타이타닉 연습문제 2
 
 타이타닉호 승객에 대해 성별(sex) 인원수, 나이별(age) 인원수, 선실별(class) 인원수, 사망/생존(alive) 인원수를 구해보자
@@ -479,6 +514,8 @@ titanic['alive'].value_counts()
 ```
 
 ![Untitled 33](https://user-images.githubusercontent.com/43038052/123982079-b74a8680-d9fd-11eb-951e-158151575a2f.png)
+
+<br>
 
 ### 행/열 합계
 
@@ -522,6 +559,9 @@ df2.mean(axis=1)
 ```
 
 ![Untitled 37](https://user-images.githubusercontent.com/43038052/123982089-b87bb380-d9fd-11eb-90d8-ea8f271f5487.png)
+
+<br>
+
 ### 타이타닉 연습문제 3
 
 ```python
@@ -546,6 +586,8 @@ sub.loc[sub['sex'] == 'female', ['age']].mean()
 
 ![Untitled 40](https://user-images.githubusercontent.com/43038052/123982095-b9144a00-d9fd-11eb-99be-886bc98c2396.png)
 
+<br>
+
 ### apply 변환
 
 ```python
@@ -559,6 +601,8 @@ df3
 
 ![Untitled 41](https://user-images.githubusercontent.com/43038052/123982099-b9ace080-d9fd-11eb-9fab-655f36aa4cbe.png)
 
+<br>
+
 각 열의 최대값 최소값의 차이를 구할 경우 아래 처럼 람다 함수를 사용합니다.
 
 이 때 행에 적용하고 싶은 경우 `axis=1` 인수를 적용합니다.
@@ -569,11 +613,17 @@ df3.apply(lambda x: x.max() - x.min())
 
 ![Untitled 42](https://user-images.githubusercontent.com/43038052/123982100-b9ace080-d9fd-11eb-8ab0-a73548ba1c39.png)
 
+<br>
+
+
 ```python
 df3.apply(lambda x: x.max() - x.min(), axis=1)
 ```
 
 ![Untitled 43](https://user-images.githubusercontent.com/43038052/123982101-ba457700-d9fd-11eb-9ad8-7854d3536e57.png)
+
+<br>
+
 
 각 열 값에 대해 사용 횟수를 알고 싶다면 `value_counts` 함수를 사용합니다.
 
@@ -582,6 +632,9 @@ df3.apply(pd.value_counts)
 ```
 
 ![Untitled 44](https://user-images.githubusercontent.com/43038052/123982105-ba457700-d9fd-11eb-8f66-83ff14706223.png)
+
+<br>
+
 
 ### 타이타닉 연습문제 4
 
@@ -597,6 +650,9 @@ titanic.tail()
 
 ![Untitled 45](https://user-images.githubusercontent.com/43038052/123982107-bade0d80-d9fd-11eb-9751-82f182d2de7a.png)
 
+<br>
+
+
 ### fillna 메소드
 
 NaN 값은 `fillna` 메소드를 사용하여 원하는 값으로 변경할 수 있습니다.
@@ -607,6 +663,9 @@ df3.apply(pd.value_counts).fillna(0.0)
 
 ![Untitled 46](https://user-images.githubusercontent.com/43038052/123982111-bade0d80-d9fd-11eb-9ca8-31ea1e32f97f.png)
 
+<br>
+
+
 ### 타이타닉 연습문제 5
 
 타이타닉호의 승객 중 나이를 명시하지 않은 고객은 나이를 명시한 고객의 평균 나이 값이 되도록 titanic 데이터프레임을 고치세요
@@ -615,6 +674,9 @@ df3.apply(pd.value_counts).fillna(0.0)
 titanic['age'] = titanic['age'].fillna(titanic['age'].mean())
 ```
 
+<br>
+
+
 ### astype 메소드
 
 데이터의 자료형을 변경할 경우 `astype` 메소드를 사용합니다.
@@ -622,6 +684,9 @@ titanic['age'] = titanic['age'].fillna(titanic['age'].mean())
 ```python
 df3.apply(pd.value_counts).fillna(0).astype(int)
 ```
+
+<br>
+
 
 ### 실수 값을 카테고리 값으로 변환
 
