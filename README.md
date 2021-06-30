@@ -22,6 +22,15 @@
 ### Flutter
 
 - [Youtube Streaming Controller](https://github.com/Omtye/TIL/blob/main/Flutter/Youtube%20Streaming.md)
+- [MobX 상태관리](https://github.com/Omtye/TIL/blob/main/Flutter/Mobx%20%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC.md)
+- [Shared preferences](https://github.com/Omtye/TIL/blob/main/Flutter/Shared%20Preferences.md)
+- [addPostFrameCallback](https://github.com/Omtye/TIL/blob/main/Flutter/addPostFrameCallback.md)
 
 ### SQL SERVER
 - [SQL SEVER 트랜잭션 격리 수준](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/SQL%20SEVER%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80.md)
+
+### Data Science
+- [Pandas](https://github.com/Omtye/TIL/blob/main/Data%20Science/Pandas.md)
+
+### Dart
+- [Mixin](https://github.com/Omtye/TIL/blob/main/Dart/MixIn.md)
