@@ -30,7 +30,8 @@
 - [SQL SEVER 트랜잭션 격리 수준](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/SQL%20SEVER%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80.md)
 
 ### Data Science
-- [Pandas](https://github.com/Omtye/TIL/blob/main/Data%20Science/Pandas.md)
+- [Pandas 기초](https://github.com/Omtye/TIL/blob/main/Data%20Science/Pandas.md)
+- [Jupyter python pip module 인식](https://github.com/Omtye/TIL/blob/main/Data%20Science/Jupyter%20python%20pip%20module%20%EC%9D%B8%EC%8B%9D.md)
 
 ### Dart
 - [Mixin](https://github.com/Omtye/TIL/blob/main/Dart/MixIn.md)
