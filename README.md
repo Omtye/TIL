@@ -32,7 +32,7 @@
 ### Data Science
 - [Pandas 기초](https://github.com/Omtye/TIL/blob/main/Data%20Science/Pandas.md)
 - [Jupyter python pip module 인식](https://github.com/Omtye/TIL/blob/main/Data%20Science/Jupyter%20python%20pip%20module%20%EC%9D%B8%EC%8B%9D.md)
-- [pandas read_csv 한글 깨짐]https://github.com/Omtye/TIL/blob/main/Data%20Science/pandas%20read_csv%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90.md
+- [pandas read_csv 한글 깨짐](https://github.com/Omtye/TIL/blob/main/Data%20Science/pandas%20read_csv%20%ED%95%9C%EA%B8%80%20%EA%B9%A8%EC%A7%90.md)
 
 ### Dart
 - [Mixin](https://github.com/Omtye/TIL/blob/main/Dart/MixIn.md)
