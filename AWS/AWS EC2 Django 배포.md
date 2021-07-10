@@ -12,23 +12,24 @@ https://aws.amazon.com/ko/
 
 EC2가 안보이시는 분은 상태 검색창에 EC2를 검색하시면 됩니다.
 
-![image-20210608221209992](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221209992.png)
+![image-20210608221209992](https://user-images.githubusercontent.com/43038052/125166849-97267e80-e1d8-11eb-9a79-a2d617fd7a06.png)
 
-
+<br>
 
 AWS는 전세계에 데이터 센터가 있는데 현재 우리가 있는 곳과 제일 가까운 위치를 선택해줍니다.
 
-![image-20210608221234120](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221234120.png)
+![image-20210608221234120](https://user-images.githubusercontent.com/43038052/125166871-aad1e500-e1d8-11eb-9e58-ff1358600af0.png)
 
+<br>
 
 
 
 
 
 그 후에 인스턴스로 이동해서 인스턴스 시작을 클릭합니다.
+![image-20210608221437043](https://user-images.githubusercontent.com/43038052/125166882-b45b4d00-e1d8-11eb-92cf-085f8dfb8f17.png)
 
-![image-20210608221437043](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221437043.png)
-
+<br>
 
 
 
@@ -39,21 +40,23 @@ AWS는 전세계에 데이터 센터가 있는데 현재 우리가 있는 곳과
 
 이번 실습에서 우분투 버전은 크게 상관이 없기 때문에 둘중 하나를 선택하시면 됩니다.
 
-![image-20210608221522247](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221522247.png)
+![image-20210608221522247](https://user-images.githubusercontent.com/43038052/125166887-bcb38800-e1d8-11eb-8044-22da9aedf1b3.png)
 
-
+<br>
 
 인스턴스 유형도 마찬가지로 프리티어 선택 후 검토 및 시작을 클릭해줍니다.
 
-![image-20210608221543280](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221543280.png)
+![image-20210608221543280](https://user-images.githubusercontent.com/43038052/125166905-c89f4a00-e1d8-11eb-8cc2-45564d27018e.png)
 
-
+<br>
 
 마지막으로 인스턴스를 시작해줍니다.
 
 보안 그룹의 경우 뒤에서 웹서버용 포트를 열 것이기 때문에 우선 스킵해줍니다.
 
-![image-20210608221623207](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221623207.png)
+![image-20210608221623207](https://user-images.githubusercontent.com/43038052/125166913-d228b200-e1d8-11eb-9f4d-19f14f227b09.png)
+
+<br>
 
 인스턴스를 시작할 경우 키 페어를 생성해야합니다. 키페어는 내 인스턴스에 접근할 수 있는 열쇠이고 노출되거나 잃어버리면 안되기 때문에 꼭 주의하셔야합니다.
 
@@ -61,9 +64,9 @@ AWS는 전세계에 데이터 센터가 있는데 현재 우리가 있는 곳과
 
 
 
-![image-20210608221825792](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608221825792.png)
+![image-20210608221825792](https://user-images.githubusercontent.com/43038052/125166920-dbb21a00-e1d8-11eb-9c2c-d12234abe9bd.png)
 
-
+<br>
 
 
 
@@ -94,15 +97,15 @@ $ chmod 400 .ssh/omty-app.pem
 
 실행중인 인스턴스를 선택한 후 연결을 클릭하면
 
-![image-20210608222854812](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608222854812.png)
+![image-20210608222854812](https://user-images.githubusercontent.com/43038052/125166927-e4a2eb80-e1d8-11eb-87b3-7701001d0d75.png)
 
-
+<br>
 
 아래와 같이 친절하게도 어떻게 AWS EC2에 연결할 수 있는지 설명이 되어있습니다.
 
-![image-20210608223015165](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608223015165.png)
+![image-20210608223015165](https://user-images.githubusercontent.com/43038052/125166935-ec629000-e1d8-11eb-99e4-c5812bb03d5e.png)
 
-
+<br>
 
 pem 파일의 위치로 이동한 후 예시의 명령어를 실행해주세요
 
@@ -114,9 +117,9 @@ $ ssh -i "omty-app.pem" ubuntu@ec2-54-180-151-169.ap-northeast-2.compute.amazona
 
 실행하시면 아래 그림처럼 ubuntu에 해당 인스턴스로 연결이 됩니다.
 
-![image-20210608223348486](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608223348486.png)
+![image-20210608223348486](https://user-images.githubusercontent.com/43038052/125166946-f4bacb00-e1d8-11eb-9d83-c76df9e9b75f.png)
 
-
+<br>
 
 AWS EC2 서버의 기본 설정을 위해 아래의 명령어를 차례대로 실행해줍니다.
 
@@ -188,11 +191,9 @@ $ git push origin master
 
 
 이후에 이렇게 프로젝트가 업로드된 것을 확인할 수 있습니다.
+![image-20210608225949795](https://user-images.githubusercontent.com/43038052/125166956-fe443300-e1d8-11eb-8eb9-e5d047c58073.png)
 
-![image-20210608225949795](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20210608225949795.png)
-
-
-
+<br>
 
 
 다시 AWS 서버로 돌아와서 git clone을 진행합니다. (ubuntu 로그인한 상태)
