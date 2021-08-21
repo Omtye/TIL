@@ -42,6 +42,7 @@
 - [SQL SEVER 트랜잭션 격리 수준](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/SQL%20SEVER%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EA%B2%A9%EB%A6%AC%20%EC%88%98%EC%A4%80.md)
 - [DB 트랜잭션 로그 꽉 찬 오류 해결](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/DB%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EB%A1%9C%EA%B7%B8%20%EA%BD%89%20%EC%B0%AC%20%EC%98%A4%EB%A5%98%20%ED%95%B4%EA%B2%B0.md)
 - [DB 용량 증가 오류 - Tempdb 증가](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/DB%20%EC%9A%A9%EB%9F%89%20%EC%A6%9D%EA%B0%80%20%EC%98%A4%EB%A5%98%20-%20Tempdb%20%EC%A6%9D%EA%B0%80.md)
+- [Plan Cache 확인 및 삭제](https://github.com/Omtye/TIL/blob/main/SQL%20SERVER/Plan%20Cache%20%ED%99%95%EC%9D%B8%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
 
 <br>
 
