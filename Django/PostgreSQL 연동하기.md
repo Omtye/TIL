@@ -2,13 +2,13 @@
 
 https://www.postgresql.org/
 
-
+<br>
 
 ### 2. DBeaver 설치
 
 https://dbeaver.io/download/
 
-
+<br>
 
 ### 3. Database 생성
 
@@ -16,7 +16,7 @@ DBeaver에 접속한 후 Database 생성
 
 ![image](https://user-images.githubusercontent.com/43038052/138903887-ee9ed043-2881-408d-b9a8-0e697f164789.png)
 
-
+<br>
 
 ### 4. Database 설정 변경
 
@@ -36,9 +36,16 @@ DATABASES = {
 }
 ```
 
+<br>
 
+### 5. psycopg2 패키지 설치
+``` shell
+pip install psycopg2
+```
 
-### 5. 생성된 모델 테이블 생성
+<br>
+
+### 6. 생성된 모델 테이블 생성
 
 ```shell
 python manage.py makemigrations
