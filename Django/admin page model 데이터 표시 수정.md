@@ -1,16 +1,12 @@
-admin page model 데이터 표시 수정
+admin 에서 데이터를 추가할 경우 별도로 객체 명을 지정하지 않으면 class object(숫자) 로 표시됨
 
-
-
-admin 에서 데이터를 추가할 경우 
-
-별도로 객체 명을 지정하지 않으면 class object(숫자) 로 표시됨
-
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/43038052/141606804-f944ae52-43fb-41bb-a6d5-5095eb548b36.png)
 
-
+<br>
+<br>
+<br>
 
 ```python
 #대륙 테이블
@@ -26,6 +22,6 @@ class Continent(models.Model):
         db_table="continent"
 ```
 
+<br>
 
-
-![image-20211113052558728](C:\Users\rhaxo\AppData\Roaming\Typora\typora-user-images\image-20211113052558728.png)
+![image](https://user-images.githubusercontent.com/43038052/141606922-e09acb00-26f2-4d15-a6f8-abcea9f76259.png)
