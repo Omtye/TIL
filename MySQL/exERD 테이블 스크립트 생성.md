@@ -1,12 +1,14 @@
 # exERD 테이블 스크립트 생성
 
-상태: 진행 중
+<br>
 
 ## 1. 테이블 표시 정보
 
 테이블 선택 > 컬럼보기 설정 
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled.png)
+![Untitled 1](https://user-images.githubusercontent.com/43038052/153976654-136c17c5-4c61-4112-98d0-b82420223ec9.png)
+
+<br>
 
 테이블 스키마 표시 항목 
 
@@ -15,7 +17,10 @@
 - 반대 모드 이름 : 논리 이름
 - 널 허용 : 널 허용 여부 표시
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled%201.png)
+![Untitled 2](https://user-images.githubusercontent.com/43038052/153976674-9a84986a-4938-4f46-87e7-9d1edd4eba45.png)
+
+<br>
+
 
 ## 2. 스키마 입력 확인
 
@@ -23,21 +28,26 @@
 
 스키마 논리, 물리 정상적으로 입력되었는지 확인
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled%202.png)
+![Untitled 3](https://user-images.githubusercontent.com/43038052/153976675-acc44079-4e1b-44eb-847c-211c335f1206.png)
+
+<br>
 
 ## 3. 컬럼 설정
 
 ### 3.1 PK 설정
 
 지정하려는 컬럼 > PK 컬럼으로 지정
+![Untitled 4](https://user-images.githubusercontent.com/43038052/153976677-0a12f7a3-02f0-433a-baca-185e3e942cd7.png)
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled%203.png)
+<br>
 
 ### 3.2 Auto Increment
 
 테이블 오른쪽 마우스 > 특성 > 컬럼 > 해당 컬럼 선택 후 자동 증가 체크
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled%204.png)
+![Untitled 5](https://user-images.githubusercontent.com/43038052/153976680-949ba9db-0cf9-402f-95b9-5269e7254462.png)
+
+<br>
 
 ### 3.3 DateTime
 
@@ -48,7 +58,9 @@
 - CURRENT_TIMESTAMP : Insert 시 현재 시각이 입력됨 (등록일시)
 - CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP : update 시 해당 시점 시간(수정일시)
 
-![Untitled](exERD%20%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%87%E1%85%B3%E1%86%AF%20%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B8%E1%84%90%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%20fc5d81fe994146b59b5241f95bd3b3cd/Untitled%205.png)
+![Untitled](https://user-images.githubusercontent.com/43038052/153976683-54f95e8b-b062-4c9e-9cab-ea8042e2e9b1.png)
+
+<br>
 
 ## 4. 포워딩
 
@@ -73,3 +85,6 @@ ALTER TABLE `abbott`.`tb_test`
 			`plus_friend_key`  -- 플러스 친구키
 		);
 ```
+
+<br>
+
