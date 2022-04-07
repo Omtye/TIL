@@ -15,5 +15,7 @@
 | docker rmi <이미지 ID> | 이미지삭제 |
 | docker system prune | 도커를 쓰지 않을 떄 모두 정리 (실행중인 컨테이너는 영향x) |
 | docker exec [-it] <컨테이너 ID> <명령어> | 실행중인 컨테이너에 명령어 전달 | 
-| docker exec [-it] <컨테이너 ID> sh | 해당 컨테이너 터미널 연결 | 
+| docker exec [-it] <컨테이너 ID> sh | 해당 컨테이너 터미널 연결 | \
+| docker volume rm <볼륭명> | 특정 볼륨 삭제 |
+| docker volume prune | 사용하지 않는 볼륨 삭제 | 
 
