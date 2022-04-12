@@ -13,6 +13,7 @@ Docker build omty/docker-compose-app ./
 ```
 - `./` 는 현재 디렉토리
 
+<br>
 
 ```
 Docker run omty/docker-compose-app
@@ -22,12 +23,16 @@ Docker run omty/docker-compose-app
 
 ![image](https://user-images.githubusercontent.com/43038052/162985792-087f21ef-20e5-474f-bb87-a4ba33ffef8e.png)
 
+<br>
+
 멀티 컨테이너 상황에서 쉽게 네트워크를 연결시켜주기위해 Docker Compose사용
 
+<br>
+
 docker-compose.yml 파일 생성
+- yaml, yml 파일은 일반적으로 구성 파일 및 데이터가 저장되거나 전송되는 응용 프로그램에서 사용되고 XML, json 포맷 대신 사람이 읽기 쉬운 포맷으로 나타냄
 
-yaml, yml 파일은 일반적으로 구성 파일 및 데이터가 저장되거나 전송되는 응용 프로그램에서 사용되고 XML, json 포맷 대신 사람이 읽기 쉬운 포맷으로 나타냄
-
+<br>
 
 **docker-compose.yml**
 
@@ -40,10 +45,14 @@ services:
     build: .
     ports:
       - "5000:8080"
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - "9090:9090"
 ```
+<br>
 
-
-Docker-compose 실행
+Docker-compose 실행 (docker-compose 파일 위치에서 실행)
 ```
 docker-compose up -d --build
 ```
