@@ -59,5 +59,12 @@ docker-compose up -d --build
 - `-d` 앱을 백그라운드로 실행 앱에 나오는 output을 표시하지 않음
 - `--build` 옵션을 줄 경우 다시 빌드를 수행(수정했을 경우)
 
+<br>
+
+docker compose 중단
+```
+docker-compose donw
+```
+
 
 
